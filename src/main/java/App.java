@@ -24,7 +24,7 @@ public class App {
             new Item("ITEM0013" , "Chinese hamburger", 6),
             new Item("ITEM0022" , "Cold noodles", 8)
         };
-        SalesPromotion deductSale = new SalesPromotion("deduct", "Deduct 6 yuan when the order reaches 30 yuan, saving 6 yuan\n", Arrays.asList("ITEM0001", "ITEM0013", "ITEM0022"));
+        SalesPromotion deductSale = new SalesPromotion("deduct", "满30减6 yuan，saving 6 yuan\n", Arrays.asList("ITEM0001", "ITEM0013", "ITEM0022"));
         SalesPromotion halfSale = new SalesPromotion("half", "Half price for certain dishes (Braised chicken，Cold noodles)，saving ", Arrays.asList("ITEM0001", "ITEM0022"));
 
         // Get items from input
